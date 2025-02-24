@@ -24,10 +24,12 @@
             <h1>Best films</h1>
             <nav>
                 <ul>
-                    <!-- <li><a href="#classics">Popular and loved</a></li>
-                    <li><a href="#superhero">Superhero</a></li> -->
-                    <li><a href="#thrillers">Thrillers</a></li>
-                    <li><a href="#animated">Animated</a></li>
+                    <li><a href="#thrillers"
+                            onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Page link'})">Thrillers</a>
+                    </li>
+                    <li><a href="#animated"
+                            onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Page link'})">Animated</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -182,7 +184,8 @@
             </section>
 
             <div class="buttons">
-                <button><a href="./" class="page-change">return</a></button>
+                <button><a href="./" class="page-change"
+                        onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Page link'})">return</a></button>
                 <button class="no-page-change"></button>
             </div>
         </main>
