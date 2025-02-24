@@ -25,7 +25,7 @@
             <h1>Best films</h1>
             <nav>
                 <ul>
-                    <li><a href="#classics">Popular and loved</a></li>
+                    <li><a href="#classics" onclick="gtag('event', 'click', {'event_category': 'link', 'event_label': 'Page link'})">Popular and loved</a></li>
                     <li><a href="#superhero">Superhero</a></li>
                     <!-- <li><a href="#thrillers">Thrillers</a></li>
                     <li><a href="#animated">Animated</a></li> -->
@@ -379,12 +379,15 @@
                 </article> -->
             </section>
 
-            <a href="movies.html">next page</a>
+            <a href="movies.html" class="page-change">next page</a>
         </main>
         <footer>
             <p>best films to watch</p>
             <p>according to me</p>
             <p>P.S. I didn't watch some of them</p>
+            <button aria-label="share this site">
+                Share
+            </button>
         </footer>
     </div>
 

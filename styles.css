@@ -35,8 +35,11 @@ nav > ul > li{
 }
 a{
     text-decoration: none;
-    /* color: #fff; */
+    color: #fff;
     border-radius: 5px;
+}
+.page-change{
+    color: black;
 }
 img{
     /* max-width: 400px;
