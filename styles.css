@@ -9,7 +9,7 @@ body{
     margin: 0;
     font-family:  Arial, sans-serif;
     background-color: #f9f9f9;
-    /* font-size: 20px; */
+    font-size: 20px;
 }
 header, footer{
     background-color: #3E4E50;
@@ -54,9 +54,12 @@ li{
     display: flex;
     justify-content: space-between;
 }
-.page-change{
+.page-change, .share{
     background-color: #3E4E50;
+    color: #fff;
     padding: 5px;
+    font-size: 1.3em;
+    font-weight: 400;
 }
 button{
     background: transparent;
